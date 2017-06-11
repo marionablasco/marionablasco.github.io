@@ -1,0 +1,164 @@
+/* Global */
+
+body {
+  background-color: #eee;
+}
+
+
+
+/* Overwrite Bootstrap defaults */
+
+.navbar {
+  background-color: #ddd; /* All colors are temporal */
+}
+
+
+
+/* Master */
+
+#custom-master {
+  padding: 0;
+  background-color: #eee;
+}
+
+
+
+/* Header */
+
+#custom-header {
+  /* Can't do all 4 paddings at a time because inherit only works in separate declarations */
+  padding-top: 9rem; /* Because of the navbar, min pad-top is 3rem */
+  padding-right: inherit;
+  padding-bottom: 6rem;
+  padding-left: inherit;
+  text-align: center;
+}
+
+.custom-header-element {
+  margin: auto 1.25rem;
+  display: inline;
+  font-size: 1rem;
+  font-variant: small-caps;
+}
+
+
+
+/* Content */
+
+#custom-content {
+  padding: 3.5rem;
+  background-color: #fff;
+}
+
+
+
+/* Showcase */
+
+#custom-showcase {
+  padding: auto 2rem;
+}
+
+
+
+/* Photo */
+
+#custom-photo-display {
+  width: 100%;
+  height: auto;
+}
+
+
+
+/* Thumbnail(s) */
+
+.custom-thumbnail {
+  padding: 2rem;
+  text-align: center;
+  color: inherit;
+  border: 10px solid #eee;
+}
+
+.custom-thumbnail:hover {
+  color: inherit;
+  text-decoration: inherit;
+  background-color: #fff;
+}
+
+.custom-thumbnail img {
+  display: inline;
+}
+
+.custom-thumbnail-selected {
+  background-color: #fff;
+  border: 10px solid #eee;
+}
+
+
+
+/* Audio & Texts */
+
+#custom-audio-list, #custom-text-list {
+  padding: 0;
+}
+
+.custom-audio-element, .custom-text-element {
+  padding: 2rem;
+}
+
+audio {
+  background-color: #fff;
+}
+
+.custom-audio-element-b, .custom-text-element-b {
+  background-color: #fff;
+}
+
+
+.custom-text-thumbnail {
+  border: 5px solid #eee;
+}
+
+
+
+/* Footer */
+
+.custom-footer {
+  text-align: center;
+  color: #ccc;
+  padding: 3rem;
+}
+
+
+
+/* Misc */
+
+/* Used for images that may or may not have text beneath, depending on screen width */
+.custom-responsive-bottom { /* The kind of bottoms I like ;) */
+  margin-bottom: 3rem;
+}
+
+.custom-media-title {
+  display: inline;
+  vertical-align: middle;
+  padding-bottom: 2.5rem;
+}
+
+.custom-media-link {
+  font-size: .8rem;
+  vertical-align: middle;
+  margin-left: .2rem;
+  padding-bottom: 2.5rem;
+}
+
+.custom-section-title {
+  display: inline;
+  vertical-align: middle;
+  padding-bottom: 3rem;
+}
+
+.custom-section-link {
+  font-size: 1rem;
+  vertical-align: middle;
+  margin-left: .25rem;
+  padding-bottom: 3rem;
+}

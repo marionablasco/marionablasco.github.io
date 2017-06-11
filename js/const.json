@@ -1,0 +1,32 @@
+{
+  "url": "",
+  "location": {
+    "video": "data/video/",
+    "photo": "data/photo/",
+    "audio": "data/audio/",
+    "text": "data/text/"
+  },
+  "file": {
+    "video": {
+      "thumbnail": "thumbnail.jpg",
+      "description": "description.txt",
+      "meta": "meta.json"
+    },
+    "photo": {
+      "file": "photo.jpg",
+      "thumbnail": "thumbnail.jpg",
+      "description": "description.txt",
+      "meta": "meta.json"
+    },
+    "audio": {
+      "file": "audio.wav",
+      "description": "description.txt",
+      "meta": "meta.json"
+    },
+    "text": {
+      "thumbnail": "thumbnail.jpg",
+      "description": "description.txt",
+      "meta": "meta.json"
+    }
+  }
+}
